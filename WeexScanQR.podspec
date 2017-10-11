@@ -9,23 +9,23 @@ Pod::Spec.new do |s|
                    Weexplugin Source Description
                    DESC
 
-  s.homepage     = "https://github.com"
+  s.homepage     = "https://github.com/WUBOSS/weexScanQR"
   s.license = {
-    :type => 'Copyright',
+    :type => 'MIT',
     :text => <<-LICENSE
             copyright
     LICENSE
   }
   s.authors      = {
-                     "yourname" =>"youreamail"
+                     "WUBOSS" =>"1054258896@qq.com"
                    }
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => 'please input the url of your code in github', :tag => 'please input you github tag' }
-  s.source_files  = "ios/Sources/*.{h,m,mm}"
-  
+  s.source       = { :git => 'https://github.com/WUBOSS/weexScanQR.git', :tag => '0.0.1' }
+  s.source_files  = "ios/Sources", "ios/Sources/**/*"
   s.requires_arc = true
   s.dependency "WeexPluginLoader"
   s.dependency "WeexSDK"
+  s.framework = "AVFoundation"
 end

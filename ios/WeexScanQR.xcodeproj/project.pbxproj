@@ -93,6 +93,7 @@
 			);
 			path = SGQRCode;
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		8D9F7B7D1F8DF3C900EAC28A /* Category */ = {
 			isa = PBXGroup;
