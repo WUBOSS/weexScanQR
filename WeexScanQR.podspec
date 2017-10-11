@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/WUBOSS/weexScanQR.git', :tag => '0.0.1' }
   s.source_files  = "ios/Sources", "ios/Sources/**/*"
+  s.public_header_files = 'ios/Sources/**/*.h'
   s.requires_arc = true
   s.dependency "WeexPluginLoader"
   s.dependency "WeexSDK"
