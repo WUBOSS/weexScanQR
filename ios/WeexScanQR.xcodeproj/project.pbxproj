@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D9F7B761F8DF2DC00EAC28A /* WXScanQRModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F7B741F8DF2DC00EAC28A /* WXScanQRModule.h */; };
+		8D9F7B771F8DF2DC00EAC28A /* WXScanQRModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F7B751F8DF2DC00EAC28A /* WXScanQRModule.m */; };
+		8D9F7B791F8DF31700EAC28A /* SGQRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F7B781F8DF31700EAC28A /* SGQRCodeScanningVC.m */; };
+		8D9F7B7B1F8DF31C00EAC28A /* SGQRCodeScanningVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F7B7A1F8DF31C00EAC28A /* SGQRCodeScanningVC.h */; };
+		8D9F7B8C1F8DF3C900EAC28A /* UIImage+ImageSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F7B7E1F8DF3C900EAC28A /* UIImage+ImageSize.h */; };
+		8D9F7B8D1F8DF3C900EAC28A /* UIImage+ImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F7B7F1F8DF3C900EAC28A /* UIImage+ImageSize.m */; };
+		8D9F7B8E1F8DF3C900EAC28A /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F7B801F8DF3C900EAC28A /* SGQRCode.bundle */; };
+		8D9F7B8F1F8DF3C900EAC28A /* SGQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F7B811F8DF3C900EAC28A /* SGQRCode.h */; };
+		8D9F7B901F8DF3C900EAC28A /* SGQRCodeAlbumManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F7B821F8DF3C900EAC28A /* SGQRCodeAlbumManager.h */; };
+		8D9F7B911F8DF3C900EAC28A /* SGQRCodeAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F7B831F8DF3C900EAC28A /* SGQRCodeAlbumManager.m */; };
+		8D9F7B921F8DF3C900EAC28A /* SGQRCodeGenerateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F7B841F8DF3C900EAC28A /* SGQRCodeGenerateManager.h */; };
+		8D9F7B931F8DF3C900EAC28A /* SGQRCodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F7B851F8DF3C900EAC28A /* SGQRCodeGenerateManager.m */; };
+		8D9F7B941F8DF3C900EAC28A /* SGQRCodeHelperTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F7B861F8DF3C900EAC28A /* SGQRCodeHelperTool.h */; };
+		8D9F7B951F8DF3C900EAC28A /* SGQRCodeHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F7B871F8DF3C900EAC28A /* SGQRCodeHelperTool.m */; };
+		8D9F7B961F8DF3C900EAC28A /* SGQRCodeScanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F7B881F8DF3C900EAC28A /* SGQRCodeScanManager.h */; };
+		8D9F7B971F8DF3C900EAC28A /* SGQRCodeScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F7B891F8DF3C900EAC28A /* SGQRCodeScanManager.m */; };
+		8D9F7B981F8DF3C900EAC28A /* SGQRCodeScanningView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F7B8A1F8DF3C900EAC28A /* SGQRCodeScanningView.h */; };
+		8D9F7B991F8DF3C900EAC28A /* SGQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F7B8B1F8DF3C900EAC28A /* SGQRCodeScanningView.m */; };
+		B6344CB33D713B6CF2066DB4 /* libPods-WeexScanQR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 167B6F1EDB1E62CFF245D956 /* libPods-WeexScanQR.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F1C92092FF9562A4B475501 /* Pods-WeexScanQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexScanQR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexScanQR/Pods-WeexScanQR.debug.xcconfig"; sourceTree = "<group>"; };
+		167B6F1EDB1E62CFF245D956 /* libPods-WeexScanQR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexScanQR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F9AEB97654FF7EEA032F16 /* Pods-WeexScanQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexScanQR.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexScanQR/Pods-WeexScanQR.release.xcconfig"; sourceTree = "<group>"; };
+		8D9F7B741F8DF2DC00EAC28A /* WXScanQRModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScanQRModule.h; sourceTree = "<group>"; };
+		8D9F7B751F8DF2DC00EAC28A /* WXScanQRModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXScanQRModule.m; sourceTree = "<group>"; };
+		8D9F7B781F8DF31700EAC28A /* SGQRCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanningVC.m; sourceTree = "<group>"; };
+		8D9F7B7A1F8DF31C00EAC28A /* SGQRCodeScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanningVC.h; sourceTree = "<group>"; };
+		8D9F7B7E1F8DF3C900EAC28A /* UIImage+ImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageSize.h"; sourceTree = "<group>"; };
+		8D9F7B7F1F8DF3C900EAC28A /* UIImage+ImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageSize.m"; sourceTree = "<group>"; };
+		8D9F7B801F8DF3C900EAC28A /* SGQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGQRCode.bundle; sourceTree = "<group>"; };
+		8D9F7B811F8DF3C900EAC28A /* SGQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCode.h; sourceTree = "<group>"; };
+		8D9F7B821F8DF3C900EAC28A /* SGQRCodeAlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeAlbumManager.h; sourceTree = "<group>"; };
+		8D9F7B831F8DF3C900EAC28A /* SGQRCodeAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeAlbumManager.m; sourceTree = "<group>"; };
+		8D9F7B841F8DF3C900EAC28A /* SGQRCodeGenerateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeGenerateManager.h; sourceTree = "<group>"; };
+		8D9F7B851F8DF3C900EAC28A /* SGQRCodeGenerateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeGenerateManager.m; sourceTree = "<group>"; };
+		8D9F7B861F8DF3C900EAC28A /* SGQRCodeHelperTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeHelperTool.h; sourceTree = "<group>"; };
+		8D9F7B871F8DF3C900EAC28A /* SGQRCodeHelperTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeHelperTool.m; sourceTree = "<group>"; };
+		8D9F7B881F8DF3C900EAC28A /* SGQRCodeScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanManager.h; sourceTree = "<group>"; };
+		8D9F7B891F8DF3C900EAC28A /* SGQRCodeScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanManager.m; sourceTree = "<group>"; };
+		8D9F7B8A1F8DF3C900EAC28A /* SGQRCodeScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanningView.h; sourceTree = "<group>"; };
+		8D9F7B8B1F8DF3C900EAC28A /* SGQRCodeScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanningView.m; sourceTree = "<group>"; };
+		C45843E41E84EF5B00D88C0B /* WeexScanQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeexScanQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45843EF1E84EF7B00D88C0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45843E01E84EF5B00D88C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6344CB33D713B6CF2066DB4 /* libPods-WeexScanQR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248CB2E7B700A3049EE0727E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				167B6F1EDB1E62CFF245D956 /* libPods-WeexScanQR.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D9F7B7C1F8DF3C900EAC28A /* SGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F7B7D1F8DF3C900EAC28A /* Category */,
+				8D9F7B801F8DF3C900EAC28A /* SGQRCode.bundle */,
+				8D9F7B811F8DF3C900EAC28A /* SGQRCode.h */,
+				8D9F7B821F8DF3C900EAC28A /* SGQRCodeAlbumManager.h */,
+				8D9F7B831F8DF3C900EAC28A /* SGQRCodeAlbumManager.m */,
+				8D9F7B841F8DF3C900EAC28A /* SGQRCodeGenerateManager.h */,
+				8D9F7B851F8DF3C900EAC28A /* SGQRCodeGenerateManager.m */,
+				8D9F7B861F8DF3C900EAC28A /* SGQRCodeHelperTool.h */,
+				8D9F7B871F8DF3C900EAC28A /* SGQRCodeHelperTool.m */,
+				8D9F7B881F8DF3C900EAC28A /* SGQRCodeScanManager.h */,
+				8D9F7B891F8DF3C900EAC28A /* SGQRCodeScanManager.m */,
+				8D9F7B8A1F8DF3C900EAC28A /* SGQRCodeScanningView.h */,
+				8D9F7B8B1F8DF3C900EAC28A /* SGQRCodeScanningView.m */,
+			);
+			path = SGQRCode;
+			sourceTree = "<group>";
+		};
+		8D9F7B7D1F8DF3C900EAC28A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F7B7E1F8DF3C900EAC28A /* UIImage+ImageSize.h */,
+				8D9F7B7F1F8DF3C900EAC28A /* UIImage+ImageSize.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C45843DA1E84EF5B00D88C0B = {
+			isa = PBXGroup;
+			children = (
+				C45843F11E84F39000D88C0B /* Sources */,
+				C45843EF1E84EF7B00D88C0B /* Info.plist */,
+				C45843E51E84EF5B00D88C0B /* Products */,
+				DCA0321F3AC057FF2A8C84CB /* Pods */,
+				248CB2E7B700A3049EE0727E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C45843E51E84EF5B00D88C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45843E41E84EF5B00D88C0B /* WeexScanQR.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45843F11E84F39000D88C0B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F7B7C1F8DF3C900EAC28A /* SGQRCode */,
+				8D9F7B741F8DF2DC00EAC28A /* WXScanQRModule.h */,
+				8D9F7B751F8DF2DC00EAC28A /* WXScanQRModule.m */,
+				8D9F7B7A1F8DF31C00EAC28A /* SGQRCodeScanningVC.h */,
+				8D9F7B781F8DF31700EAC28A /* SGQRCodeScanningVC.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DCA0321F3AC057FF2A8C84CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F1C92092FF9562A4B475501 /* Pods-WeexScanQR.debug.xcconfig */,
+				87F9AEB97654FF7EEA032F16 /* Pods-WeexScanQR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C45843E11E84EF5B00D88C0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9F7B981F8DF3C900EAC28A /* SGQRCodeScanningView.h in Headers */,
+				8D9F7B8F1F8DF3C900EAC28A /* SGQRCode.h in Headers */,
+				8D9F7B8C1F8DF3C900EAC28A /* UIImage+ImageSize.h in Headers */,
+				8D9F7B7B1F8DF31C00EAC28A /* SGQRCodeScanningVC.h in Headers */,
+				8D9F7B961F8DF3C900EAC28A /* SGQRCodeScanManager.h in Headers */,
+				8D9F7B901F8DF3C900EAC28A /* SGQRCodeAlbumManager.h in Headers */,
+				8D9F7B761F8DF2DC00EAC28A /* WXScanQRModule.h in Headers */,
+				8D9F7B941F8DF3C900EAC28A /* SGQRCodeHelperTool.h in Headers */,
+				8D9F7B921F8DF3C900EAC28A /* SGQRCodeGenerateManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C45843E31E84EF5B00D88C0B /* WeexScanQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45843EC1E84EF5C00D88C0B /* Build configuration list for PBXNativeTarget "WeexScanQR" */;
+			buildPhases = (
+				632ACA55BC2204B1168D1E27 /* [CP] Check Pods Manifest.lock */,
+				C45843DF1E84EF5B00D88C0B /* Sources */,
+				C45843E01E84EF5B00D88C0B /* Frameworks */,
+				C45843E11E84EF5B00D88C0B /* Headers */,
+				C45843E21E84EF5B00D88C0B /* Resources */,
+				AFE20229A71124E95EB481F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeexScanQR;
+			productName = WeexScanQR;
+			productReference = C45843E41E84EF5B00D88C0B /* WeexScanQR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45843DB1E84EF5B00D88C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = weexplugin;
+				TargetAttributes = {
+					C45843E31E84EF5B00D88C0B = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C45843DE1E84EF5B00D88C0B /* Build configuration list for PBXProject "WeexScanQR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C45843DA1E84EF5B00D88C0B;
+			productRefGroup = C45843E51E84EF5B00D88C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45843E31E84EF5B00D88C0B /* WeexScanQR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45843E21E84EF5B00D88C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9F7B8E1F8DF3C900EAC28A /* SGQRCode.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		632ACA55BC2204B1168D1E27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE20229A71124E95EB481F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexScanQR/Pods-WeexScanQR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45843DF1E84EF5B00D88C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9F7B8D1F8DF3C900EAC28A /* UIImage+ImageSize.m in Sources */,
+				8D9F7B951F8DF3C900EAC28A /* SGQRCodeHelperTool.m in Sources */,
+				8D9F7B971F8DF3C900EAC28A /* SGQRCodeScanManager.m in Sources */,
+				8D9F7B911F8DF3C900EAC28A /* SGQRCodeAlbumManager.m in Sources */,
+				8D9F7B931F8DF3C900EAC28A /* SGQRCodeGenerateManager.m in Sources */,
+				8D9F7B991F8DF3C900EAC28A /* SGQRCodeScanningView.m in Sources */,
+				8D9F7B771F8DF2DC00EAC28A /* WXScanQRModule.m in Sources */,
+				8D9F7B791F8DF31700EAC28A /* SGQRCodeScanningVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C45843EA1E84EF5C00D88C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C45843EB1E84EF5C00D88C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C45843ED1E84EF5C00D88C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1C92092FF9562A4B475501 /* Pods-WeexScanQR.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.WeexScanQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C45843EE1E84EF5C00D88C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F9AEB97654FF7EEA032F16 /* Pods-WeexScanQR.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.WeexScanQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45843DE1E84EF5B00D88C0B /* Build configuration list for PBXProject "WeexScanQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45843EA1E84EF5C00D88C0B /* Debug */,
+				C45843EB1E84EF5C00D88C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45843EC1E84EF5C00D88C0B /* Build configuration list for PBXNativeTarget "WeexScanQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45843ED1E84EF5C00D88C0B /* Debug */,
+				C45843EE1E84EF5C00D88C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45843DB1E84EF5B00D88C0B /* Project object */;
+}
