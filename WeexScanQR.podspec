@@ -23,7 +23,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
 
   s.source       = { :git => 'https://github.com/WUBOSS/weexScanQR.git', :tag => '0.0.1' }
-  s.source_files  = "ios/Sources", "ios/Sources/**/*"
+  s.source_files  = "ios/Sources", "ios/Sources/**/*.{h,m,mm}"
+  s.resources = "ios/Sources/SGQRCode/SGQRCode.bundle","ios/Sources/SGQRCode/SGQRCode.bundle/**/*.{png,caf,plist,strings}"
   s.public_header_files = 'ios/Sources/**/*.h'
   s.requires_arc = true
   s.dependency "WeexPluginLoader"
