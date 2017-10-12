@@ -5,7 +5,7 @@ weex-scanQR是一个weex扫描二维码插件，可以通过weexpack快速集成
 支持的WeexSDK版本： >= 0.10.0
 
 # 功能
-![Aaron Swartz](https://raw.githubusercontent.com/smshen/MarkdownPhotos/master/Res/test.jpg)
+![Aaron Swartz](https://github.com/WUBOSS/weexScanQR/blob/master/A71A12BEAF5E243868FDA771166AB57D.gif)
 # 快速使用
 - 通过weexpack初始化一个测试工程 weextest
    ```
