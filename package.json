@@ -1,6 +1,6 @@
 {
     "name": "weex-scanqr",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "./js/build/main.js",
     "description": "weex-scanQR extend for weex",
     "license": "Apache-2.0",
