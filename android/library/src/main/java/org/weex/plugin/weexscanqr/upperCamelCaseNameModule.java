@@ -16,7 +16,7 @@ public class WeexScanQRModule extends WXModule {
 
     //async ret example
     @JSMethod
-    public void asyncRet(String param, JSCallback callback) {
+    public void scanQR(String param, JSCallback callback) {
         callback.invoke(param);
     }
 }
