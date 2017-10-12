@@ -1,11 +1,11 @@
 # weex-scanQR
-weex-scanQR是一个weex插件，可以通过weexpack快速集成，可以丰富weex功能
+weex-scanQR是一个weex扫描二维码插件，可以通过weexpack快速集成，可以丰富weex功能
 
 支持的weexpack版本： >= 0.2.0
 支持的WeexSDK版本： >= 0.10.0
 
 # 功能
-
+![Aaron Swartz](https://raw.githubusercontent.com/smshen/MarkdownPhotos/master/Res/test.jpg)
 # 快速使用
 - 通过weexpack初始化一个测试工程 weextest
    ```
@@ -68,7 +68,12 @@ const plugin = weex.requireModule('weexScanQR');
 plugin.scanQR("title",function(ret){
 
 });
-
+ret: {"status":"error","msg":@"未扫描到结果","result":""}
+status: error 失败 success 成功 cancel取消
+msg:错误信息
+result:扫描结果，失败错误没有该字段。
 
 ```
-
+#联系方式
+```
+邮箱:1054258896@qq.com
