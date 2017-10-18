@@ -39,7 +39,7 @@ weex-scanQR是一个weex扫描二维码插件，可以通过weexpack快速集成
   pod 'WeexScanQR'
   ```
 
-## 安卓集成插件weexscanqr
+## 安卓集成插件weexscanqr (`只支持ios，下个版本更新android`)
 - 命令行集成
   ```
   weex plugin add weex-scanQR
